@@ -1,0 +1,13 @@
+:host {
+  & > section {
+    overflow-y: hidden !important;
+  }
+  .example-viewport {
+    height: 100%;
+    width: 100%;
+  }
+
+  .example-item {
+    height: 50px;
+  }
+}

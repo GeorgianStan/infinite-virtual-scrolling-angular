@@ -1,0 +1,10 @@
+<section
+  class="grid"
+  infiniteScroll
+  [scrollWindow]="false"
+  (scrolled)="onScroll()"
+>
+  <span class="hint">Total count: {{ items.length }} </span>
+
+  <div class="card" *ngFor="let item of items">{{ item }}</div>
+</section>
